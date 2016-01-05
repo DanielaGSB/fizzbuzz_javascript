@@ -30,4 +30,10 @@ describe("Fizzbuzz", function() {
       expect(fizzbuzz.play(15)).toEqual('Fizzbuzz');
     });
   });
+
+  describe("not a multiple of 3, 5 or 15", function() {
+    it("should return the number", function() {
+      expect(fizzbuzz.play(4)).toEqual(4);
+    });
+  });
 });
