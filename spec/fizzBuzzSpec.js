@@ -24,4 +24,10 @@ describe("Fizzbuzz", function() {
       expect(fizzbuzz.play(10)).toEqual('Buzz');
     });
   });
+
+  describe("multiples of 3 and 5", function() {
+    it("should return Fizzbuzz when number is 15", function() {
+      expect(fizzbuzz.play(15)).toEqual('Fizzbuzz');
+    });
+  });
 });
