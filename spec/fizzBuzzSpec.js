@@ -7,7 +7,7 @@ describe("Fizzbuzz", function() {
 
   describe("multiples of 3", function() {
     it("should return fizz when number is 3", function() {
-      expect(fizzbuzz.play(3)).toEqual('fizz');
+      expect(fizzbuzz.play(3)).toEqual('Fizz');
     });
   });
 });
